@@ -58,7 +58,7 @@ export const ServiceSection = () => {
               variants={fadeUp}
               className="bg-white dark:bg-dark-primary/20 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col"
             >
-              <div className="relative w-full h-[40vh]">
+              <div className="relative w-full min-h-[40vh]">
                 <Image
                   src={service.image}
                   alt={service.title}
@@ -66,7 +66,7 @@ export const ServiceSection = () => {
                   className="rounded-t-2xl"
                 />
               </div>
-              <div className="p-6 flex flex-col justify-between items-start  h-[50vh]">
+              <div className="p-6 flex flex-col justify-between items-start  min-h-[50vh]">
                 <div>
                   <h3 className="text-2xl md:text-3xl font-semibold text-[--color-accent] dark:text-[--color-dark-accent] mb-3">
                     {service.title}
