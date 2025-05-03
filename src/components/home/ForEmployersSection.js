@@ -16,10 +16,9 @@ const ForEmployersSection = () => {
         >
           <div className="relative rounded-2xl shadow-lg w-full h-96 overflow-hidden">
           <Image
-            src="/images/employers-hiring-team.png"
+            src="/images/dream-team.png"
             alt="Team Collaborating"
             fill
-            objectFit="cover"
           />
           </div>
         </motion.div>

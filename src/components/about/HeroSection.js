@@ -24,7 +24,7 @@ const HeroSection = () => {
         style={{
           clipPath: "polygon(0% 25%, 100% 25%, 100% 75%, 0% 75%)",
         }}
-        className="absolute w-[70vw] mx-auto inset-0 bg-[var(--color-text)] dark:bg-[var(--color-dark-background)] z-10"
+        className="absolute w-[100vw] mx-auto inset-0 bg-[var(--color-text)] dark:bg-[var(--color-dark-background)] z-10"
       />
       <motion.div
         initial={{ opacity: 0, y: 2000 }}

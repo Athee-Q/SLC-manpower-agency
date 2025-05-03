@@ -42,7 +42,7 @@ export default function HeroSection() {
           clipPath:
             "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
         }}
-        className="absolute w-[70vw] mx-auto inset-0 bg-[var(--color-text)] dark:bg-[var(--color-dark-background)] z-10"
+        className="absolute lg:w-[70vw] mx-auto inset-0 bg-[var(--color-text)]/0 lg:bg-[var(--color-text)] lg:dark:bg-[var(--color-dark-background)] dark:bg-[var(--color-dark-background)]/0 z-10"
       />
       <motion.div
           initial={{ opacity: 0, x: 2000 }}
@@ -53,7 +53,7 @@ export default function HeroSection() {
           clipPath:
             "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
         }}
-        className="absolute w-[70vw] mx-auto inset-0 bg-[var(--color-text)] dark:bg-[var(--color-dark-background)] z-10"
+        className="absolute lg:w-[70vw] mx-auto inset-0 bg-[var(--color-text)]/0 lg:bg-[var(--color-text)] lg:dark:bg-[var(--color-dark-background)] dark:bg-[var(--color-dark-background)]/0 z-10"
       />
 
       {/* 🔹 Foreground Content */}

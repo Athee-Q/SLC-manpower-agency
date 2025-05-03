@@ -34,7 +34,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact" className="p-6 md:p-8 lg:p-10  min-w-11/12 mx-auto bg-text/50 dark:bg-dark-text rounded-2xl ">
+    <section id="contact" className="p-6 md:p-8 lg:p-10  min-w-11/12 mx-auto bg-primary/10 dark:bg-dark-text/20 rounded-2xl ">
       {submitted && (
         <p className="text-green-600 mb-4">Message sent successfully!</p>
       )}

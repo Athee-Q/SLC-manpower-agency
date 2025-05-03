@@ -26,7 +26,7 @@ const StorySection = () => {
           viewport={{ once: true }}
           className="row-span-1 md:row-span-2 flex justify-center items-center"
         >
-          <div className="relative rounded-2xl shadow-lg w-full h-96 overflow-hidden">
+          <div className="relative rounded-2xl shadow-lg w-11/12 mx-auto h-[60vh] overflow-hidden">
             <Image src={story.image} alt={"Our-Story"} fill />
           </div>
         </motion.div>
