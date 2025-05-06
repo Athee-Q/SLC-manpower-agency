@@ -124,15 +124,12 @@ export default function ContactForm() {
           >
             Country <span className="text-red-500">*</span>
           </label>
-          <select
+          <input
             id="country"
             {...register("country", { required: true })}
+            placeholder="Country"
             className="input"
-          >
-            <option value="">Select Country</option>
-            <option value="Singapore">Singapore</option>
-            <option value="India">India</option>
-          </select>
+          />
           {errors.country && (
             <span className="text-red-500 text-sm">Country is required</span>
           )}
@@ -146,15 +143,12 @@ export default function ContactForm() {
           >
             Reason for Contacting <span className="text-red-500">*</span>
           </label>
-          <select
+          <input
             id="reason"
             {...register("reason", { required: true })}
+            placeholder="Reason"
             className="input"
-          >
-            <option value="">Reason for contacting</option>
-            <option value="Job Inquiry">Job Inquiry</option>
-            <option value="Partnership">Partnership</option>
-          </select>
+          />
           {errors.reason && (
             <span className="text-red-500 text-sm">Please select a reason</span>
           )}

@@ -17,18 +17,6 @@ const testimonials = [
     name: "Arjun K.",
     title: "Software Engineer Intern",
   },
-  {
-    quote:
-      "As a recent graduate, SLC manpower provided me with the resources and opportunities I needed to kickstart my career. Highly recommend!",
-    name: "Arjun K.",
-    title: "Software Engineer Intern",
-  },
-  {
-    quote:
-      "As a recent graduate, SLC manpower provided me with the resources and opportunities I needed to kickstart my career. Highly recommend!",
-    name: "Arjun K.",
-    title: "Software Engineer Intern",
-  },
 ];
 
 const containerVariants = {
